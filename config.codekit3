@@ -16,6 +16,13 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/client/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/client/.gitignore",
+		"oF": 0
+		},
 	"/client/node_modules": {
 		"ft": 65536,
 		"oA": 2,
