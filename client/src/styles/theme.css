@@ -1,0 +1,47 @@
+body h1, body h2, body h3, body h4 {
+  font-family: "ItalianPlate";
+  font-weight: bold; }
+
+header {
+  height: 800px;
+  background-color: #eef2ff; }
+  header h1 {
+    color: #eef2ff; }
+  header .header-card {
+    background-color: #2F0C4F;
+    box-shadow: 0.1px 0.1px 40px #06D36D;
+    padding: 16px; }
+    header .header-card hr {
+      border-color: #06D36D;
+      width: 40px;
+      border-width: 10px;
+      align: left; }
+    header .header-card .project-card {
+      background: #eef2ff;
+      box-shadow: 0.1px 0.1px 20px #549EFF;
+      border-radius: 2px;
+      padding: 16px;
+      margin-top: 32px;
+      margin-bottom: 32px; }
+      header .header-card .project-card h2 {
+        color: #06D36D;
+        font-weight: 400;
+        font-size: 22px;
+        text-transform: uppercase; }
+
+header nav {
+  background: transparent; }
+  header nav .navbar-brand {
+    color: #06D36D; }
+
+@font-face {
+  font-family: 'ItalianPlate';
+  src: url("./fonts/ItalianPlateNoOne-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/ItalianPlateNoOne-Regular.woff") format("woff"), url("./fonts/ItalianPlateNoOne-Regular.ttf") format("truetype"), url("./fonts/ItalianPlateNoOne-Regular.svg#ItalianPlateNoOne-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ItalianPlate';
+  src: url("./fonts/ItalianPlateNoOne-Bold.eot?#iefix") format("embedded-opentype"), url("./fonts/ItalianPlateNoOne-Bold.woff") format("woff"), url("./fonts/ItalianPlateNoOne-Bold.ttf") format("truetype"), url("./fonts/ItalianPlateNoOne-Bold.svg#ItalianPlateNoOne-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }

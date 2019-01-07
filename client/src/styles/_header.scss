@@ -1,0 +1,36 @@
+header {
+  height: 800px;
+  background-color: $light;
+  h1 {
+    color:$light;
+
+  }
+  //#06D36D green
+  //#549EFF blue
+  .header-card {
+    background-color: $purple;
+    box-shadow: .1px .1px 40px $green;
+    padding: 16px;
+    hr {
+      border-color: $green;
+      width: 40px;
+      border-width: 10px;
+      align: left;
+    }
+    .project-card {
+      background: $light;
+      box-shadow: .1px .1px 20px $blue;
+      border-radius: 2px;
+      padding: 16px;
+      margin-top: 32px;
+      margin-bottom: 32px;
+      h2 {
+        color: $green;
+        font-weight: 400;
+        font-size: 22px;
+        text-transform: uppercase;
+
+      }
+    }
+  }
+}
